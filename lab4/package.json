@@ -1,0 +1,26 @@
+{
+  "name": "lab04",
+  "version": "1.0.0",
+  "description": "Lab 04",
+  "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js",
+        "tests": "echo 'Error: no test specified'"
+    },
+    "keywords": [
+        "express",
+        "GET params vs query",
+        "node vs nodemon",
+        "static files"
+    ],
+    "author": "Jiung Yang",
+    "license": "ISC",
+    "description": "Running a web server using express",
+    "dependencies": {
+        "express": "^5.2.1"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.14"
+    }
+}  
