@@ -1,0 +1,24 @@
+{
+  "name": "lab05_express",
+  "version": "1.0.0",
+  "description": "Using express framewor to set up the server",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon ./server.js localhost 8081",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "101272609_COMP3123-exec05"
+  },
+  "author": "Jiung Yang",
+  "license": "ISC",
+  "dependencies": {
+    "dateformat": "^3.0.3",
+    "express": "^4.17.1"
+
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
